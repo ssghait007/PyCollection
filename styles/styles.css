@@ -1,0 +1,18 @@
+header {
+  background-color: lightcyan;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header button {
+  background-color: #2fabaf;
+}
+
+.contact button {
+  background: #2fabaf;
+}
+/*# sourceMappingURL=styles.css.map */

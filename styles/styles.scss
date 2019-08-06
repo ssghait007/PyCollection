@@ -1,0 +1,14 @@
+$primary_button:rgb(47, 171, 175);
+header{
+    background-color: lightcyan;
+    display: flex;
+    justify-content:center;
+}
+
+header button{
+    background-color: $primary_button;
+}
+
+.contact button{
+    background: $primary_button;
+}
