@@ -33,7 +33,7 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login(email,passcode)
+    server.login(email, passcode)
     sub = 'price is affordable now'
     body = 'check the amazon link https://www.amazon.in/American-Tourister-FS0-11-001/dp/B07S13P8BW/ref=sr_1_6?crid=2G4LXGHRTY7BG&keywords=american+tourister+backpacks&qid=1564333909&s=gateway&sprefix=american+tourister+ba%2Caps%2C307&sr=8-6'
     msg = 'Subject:{} \n\n{}'.format(sub, body)
@@ -44,6 +44,7 @@ def send_mail():
     )
     print('Email sent...')
     server.quit()
+
 
 while(True):
     check_price()
