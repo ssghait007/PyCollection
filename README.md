@@ -1,2 +1,2 @@
 "# Py_Concepts" 
-![GitHub Logo](/chengming-wang-rxQL0ieF_Bs-unsplash.jpg)
+![image](/chengming-wang-rxQL0ieF_Bs-unsplas.jpg)
